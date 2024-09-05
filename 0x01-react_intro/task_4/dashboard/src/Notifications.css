@@ -1,0 +1,14 @@
+.Notifications{
+    padding: 15px;
+    border: 4px dashed red;
+    position: relative;
+
+}
+
+.Notifications li[data-priority="default"] {
+    color: blue;
+}
+
+.Notifications li[data-priority="urgent"] {
+    color: red;
+}
