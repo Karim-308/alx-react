@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard",
+  "homepage": "https://Karim-308.github.io/alx-react",
   "eslintConfig": {
     "extends": [
       "react-app",
