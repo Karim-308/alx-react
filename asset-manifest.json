@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/css/main.fabc81e0.css",
+    "main.js": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/js/main.1bed2d3c.js",
+    "static/js/453.59b8a61b.chunk.js": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/js/453.59b8a61b.chunk.js",
+    "static/media/Holberton_logo.jpg": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/media/Holberton_logo.24bab5d633e36ca8d17e.jpg",
+    "static/media/close_icon.png": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/media/close_icon.9321bd6354f323fcc57a.png",
+    "index.html": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/index.html",
+    "main.fabc81e0.css.map": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/css/main.fabc81e0.css.map",
+    "main.1bed2d3c.js.map": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/js/main.1bed2d3c.js.map",
+    "453.59b8a61b.chunk.js.map": "/Karim-308/alx-react/tree/main/0x01-react_intro/task_4/dashboard/static/js/453.59b8a61b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fabc81e0.css",
+    "static/js/main.1bed2d3c.js"
+  ]
+}
