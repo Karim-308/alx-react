@@ -12,10 +12,10 @@ class Notifications extends Component {
 	}
 
 	shouldComponentUpdate(nextProps) {
-		return (
-			nextProps.length > this.props.listNotifications.length ||
-			nextProps.displayDrawer !== this.props.displayDrawer
-		);
+	  return (
+	    nextProps.listNotifications.length > this.props.listNotifications.length ||
+	    nextProps.displayDrawer !== this.props.displayDrawer
+	  );
 	}
 
 	markAsRead(id) {
@@ -55,23 +55,21 @@ class Notifications extends Component {
 							Here is the list of notifications
 						</p>
 						<ul>
-							{listNotifications && listNotifications.length > 0 ? (
-								listNotifications.map(({ type, value, html, id }) => (
-									<NotificationItem
-										key={id}
-										type={type}
-										value={value}
-										html={html}
-										markAsRead={this.markAsRead}
-										id={id}
-										styles={
-											html || type === 'urgent' ? styles.urgent : styles.default
-										}
-									/>
-								))
-							) : (
-								<NotificationItem value='No new notification for now' />
-							)}
+						  {listNotifications && listNotifications.length > 0 ? (
+						    listNotifications.map(({ type, value, html, id }) => (
+						      <NotificationItem
+						        key={id}
+						        type={type}
+						        value={value}
+						        html={html}
+						        markAsRead={this.markAsRead}
+						        id={id}
+						        styles={html || type === 'urgent' ? styles.urgent : styles.default}
+						      />
+						    ))
+						  ) : (
+						    <NotificationItem value='No new notification for now' />
+						  )}
 						</ul>
 						<button className={css(styles.button)} aria-label='Close'
 							onClick={() => {
@@ -96,7 +94,10 @@ Notifications.propTypes = {
 };
 
 Notifications.defaultProps = {
-	displayDrawer: false,
+  displayDrawer: false,
+  listNotifications: [],
+  handleDisplayDrawer: () => {},
+  handleHideDrawer: () => {},
 };
 
 const opacityKeyframes = {
